@@ -5,8 +5,8 @@
 </template>
 
 <script setup>
-  const db = hubDatabase()
-  const { results } = db.prepare('SELECT name, year FROM frameworks LIMIT 2').all()
+  // const db = hubDatabase()
+  // const { results } = db.prepare('SELECT name, year FROM frameworks LIMIT 2').all()
 
-  console.log(results)
+  // console.log(results)
 </script>

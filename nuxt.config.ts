@@ -16,4 +16,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  nitro: {
+    experimental: {
+      openAPI: true
+    }
+  }
 })
